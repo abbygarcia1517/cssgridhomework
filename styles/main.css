@@ -1,0 +1,41 @@
+.page-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 70px 1fr auto 50px;
+      grid-template-rows: 70px 1fr auto 50px;
+}
+
+header {
+  background-color: plum;
+  border: 1px solid white;
+}
+
+.featured header {
+  background-color: purple;
+  border: 1px solid white;
+}
+
+.content-wrapper {
+  background-color: palevioletred;
+  border: 1px solid white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 1fr;
+      grid-template-columns: 150px 1fr;
+}
+
+.content-area {
+  background-color: palegoldenrod;
+  border: 1px solid white;
+}
+
+.featured {
+  background-color: maroon;
+  border: 1px solid white;
+}
+
+footer {
+  background-color: orange;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=main.css.map */
