@@ -6,36 +6,62 @@
 }
 
 header {
-  background-color: plum;
-  border: 1px solid white;
+  background-color: rgba(69, 7, 224, 0.791);
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .featured header {
   background-color: purple;
-  border: 1px solid white;
+  color: white;
 }
 
 .content-wrapper {
-  background-color: palevioletred;
-  border: 1px solid white;
+  background-color: #9161ad;
+  color: white;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 150px 1fr;
       grid-template-columns: 150px 1fr;
+  height: 70vh;
 }
 
 .content-area {
-  background-color: palegoldenrod;
-  border: 1px solid white;
+  background-color: #40225e;
 }
 
 .featured {
-  background-color: maroon;
-  border: 1px solid white;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
 }
 
 footer {
   background-color: orange;
-  border: 1px solid white;
+}
+
+.featured-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.feature-one {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+div {
+  border: 1px solid black;
 }
 /*# sourceMappingURL=main.css.map */
